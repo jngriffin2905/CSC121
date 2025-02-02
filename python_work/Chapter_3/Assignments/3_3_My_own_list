@@ -1,0 +1,24 @@
+# Assignment: 3_3 My own list
+# Author:Jessica Griffin
+# Date: February 02, 2025
+
+cars = ['bronco', 'mclaren', 'suburban', 'audi', 'ram rebel']
+cars.sort()
+print(cars)
+
+owned_car = f"\nThe car I would like to own the most is a {cars[0].title()}."
+
+i_own =(f"\nThe car I own is a {cars[1].title()}.")
+
+too_expensive = (f"\nThe {cars[2].title()} is too expensive for me.")
+
+suv = (f"\nSuv's I like are the {cars[4].title()} and {cars[1].title()}.")
+
+last_car = (f"\nThe car I have owned before and miss is the {cars[3].title()}.")
+
+
+print(owned_car)
+print(i_own)
+print(too_expensive)
+print(suv)
+print(last_car)
