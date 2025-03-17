@@ -36,3 +36,17 @@ def describe_pet(pet_name, animal_type='dog'):
 
 describe_pet(pet_name='harry', animal_type='hamster')
 
+# Equivalent function calls
+
+# A dog named Willie.
+describe_pet('willie')
+describe_pet(pet_name='willie')
+
+# A hamster named Harry.
+describe_pet('harry', 'hamster')
+describe_pet(pet_name='harry', animal_type='hamster')
+describe_pet(animal_type='hamster', pet_name='harry')
+
+# Avoiding argument errors
+
+
